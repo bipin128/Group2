@@ -2,8 +2,8 @@ package com.vastika.model;
 
 public class AccountInfo {
     int id;
-    String accountName;
-    String address;
+    String accountName;//account name
+    String address;//address
     long mobileNo;
     int ssNo;
 
