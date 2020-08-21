@@ -2,17 +2,17 @@ package com.vastika.model;
 
 public class AccountInfo {
     int id;
-    String accountName;
+    String account_name;
     String address;
-    long mobileNo;
-    int ssNo;
+    int mobile_no;
+    int socialSecurity_no;
 
-    public AccountInfo(int id, String accountName, String address, long mobileNo, int ssNo) {
+    public AccountInfo() {
         this.id = id;
-        this.accountName = accountName;
+        this.account_name = account_name;
         this.address = address;
-        this.mobileNo = mobileNo;
-        this.ssNo = ssNo;
+        this.mobile_no = mobile_no;
+        this.socialSecurity_no = socialSecurity_no;
     }
 
     public int getId() {
@@ -23,12 +23,12 @@ public class AccountInfo {
         this.id = id;
     }
 
-    public String getAccountName() {
-        return accountName;
+    public String getAccount_name() {
+        return account_name;
     }
 
-    public void setAccountName(String accountName) {
-        this.accountName = accountName;
+    public void setAccount_name(String account_name) {
+        this.account_name = account_name;
     }
 
     public String getAddress() {
@@ -39,30 +39,30 @@ public class AccountInfo {
         this.address = address;
     }
 
-    public long getMobileNo() {
-        return mobileNo;
+    public int getMobile_no() {
+        return mobile_no;
     }
 
-    public void setMobileNo(long mobileNo) {
-        this.mobileNo = mobileNo;
+    public void setMobile_no(int mobile_no) {
+        this.mobile_no = mobile_no;
     }
 
-    public int getSsNo() {
-        return ssNo;
+    public int getSocialSecurity_no() {
+        return socialSecurity_no;
     }
 
-    public void setSsNo(int ssNo) {
-        this.ssNo = ssNo;
+    public void setSocialSecurity_no(int socialSecurity_no) {
+        this.socialSecurity_no = socialSecurity_no;
     }
 
     @Override
     public String toString() {
         return "AccountInfo{" +
                 "id=" + id +
-                ", accountName='" + accountName + '\'' +
+                ", account_name='" + account_name + '\'' +
                 ", address='" + address + '\'' +
-                ", mobileNo=" + mobileNo +
-                ", ssNo=" + ssNo +
+                ", mobile_no=" + mobile_no +
+                ", socialSecurity_no=" + socialSecurity_no +
                 '}';
     }
 }
