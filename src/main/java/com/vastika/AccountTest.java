@@ -12,7 +12,7 @@ public class AccountTest {
 
         do {
 
-            System.out.println("which db operation do you want to perform? OpenAccount--Deposit--withdraw--showAll");
+            System.out.println("which db operation do you want to perform? openAccount--deposit--withdraw--showAll");
             String choice = input.next();
 
             switch (choice) {
@@ -27,6 +27,7 @@ public class AccountTest {
                     break;
                 case  "showAll":
                     controller.showAll(input);
+                    break;
                 default:
                     System.out.println("wrong choice!!!");
                     break;
