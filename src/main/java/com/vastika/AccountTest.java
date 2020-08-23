@@ -12,12 +12,18 @@ public class AccountTest {
 
         do {
 
-            System.out.println("which db operation do you want to perform? OpenAccount|Deposit|Withdraw|get|");
+            System.out.println("which db operation do you want to perform? OpenAccount--Deposit--withdraw");
             String choice = input.next();
 
             switch (choice) {
                 case "openAccount":
                     controller.openAccount(input);
+                    break;
+                case "deposit":
+                    controller.deposit(input);
+                    break;
+                case "withdraw":
+                    controller.withdraw(input);
                     break;
 
                 default:

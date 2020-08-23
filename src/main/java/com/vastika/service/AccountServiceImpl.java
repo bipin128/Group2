@@ -15,12 +15,13 @@ public class AccountServiceImpl  implements AccountService{
 
     @Override
     public int deposit(AccountBalance accountBalance) {
-        return 0;
+        return accountDao.deposit(accountBalance);
+
     }
 
     @Override
     public int withdraw(AccountBalance accountBalance) {
-        return 0;
+        return accountDao.withdraw(accountBalance);
     }
 
 }

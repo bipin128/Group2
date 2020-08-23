@@ -1,14 +1,28 @@
 package com.vastika.model;
 
 public class AccountBalance {
-   int depositAmount;
-   int withdrawAmount;
-   int id;
+    int ss_No;
+    int depositAmount;
+    int withdrawAmount;
+    int balance;
 
-    public AccountBalance(int depositAmount, int withdrawAmount, int balance) {
+    public AccountBalance(int ss_No, int depositAmount, int withdrawAmount, int balance) {
+        this.ss_No = ss_No;
         this.depositAmount = depositAmount;
         this.withdrawAmount = withdrawAmount;
-        this.id = balance;
+        this.balance = balance;
+    }
+
+    public AccountBalance() {
+
+    }
+
+    public int getSs_No() {
+        return ss_No;
+    }
+
+    public void setSs_No(int ss_No) {
+        this.ss_No = ss_No;
     }
 
     public int getDepositAmount() {
@@ -28,19 +42,10 @@ public class AccountBalance {
     }
 
     public int getBalance() {
-        return id;
+        return balance;
     }
 
     public void setBalance(int balance) {
-        this.id = balance;
-    }
-
-    @Override
-    public String toString() {
-        return "AccountInfo{" +
-                "depositAmount=" + depositAmount +
-                ", withdrawAmount=" + withdrawAmount +
-                ", balance=" + id +
-                '}';
+        this.balance = balance;
     }
 }
