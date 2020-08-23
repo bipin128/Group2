@@ -24,4 +24,9 @@ public class AccountServiceImpl  implements AccountService{
         return accountDao.withdraw(accountBalance);
     }
 
+    @Override
+    public  AccountBalance showAll(int ss_No){
+        return accountDao.showAll(ss_No);
+    }
+
 }

@@ -10,4 +10,6 @@ public interface AccountService {
 
     int withdraw(AccountBalance accountBalance);
 
+    AccountBalance showAll(int ss_No);
+
 }

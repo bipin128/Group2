@@ -36,7 +36,7 @@ public class AccountController {
         accountInfo.setAccount_name(account_name);
         accountInfo.setAddress(address);
         accountInfo.setMobile_no(mobile_No);
-        accountInfo.setSocialSecurity_no(ssNo);
+        accountInfo.setSs_No(ssNo);
         return accountInfo;
     }
 
@@ -59,7 +59,7 @@ public class AccountController {
         int amount = input.nextInt();
         balance = amount + balance;
         accountBalance.setDepositAmount(amount);
-        accountBalance.setWithdrawAmount(0);
+        //  accountBalance.setWithdrawAmount(0);
         accountBalance.setBalance(balance);
         return accountBalance;
     }
@@ -69,7 +69,7 @@ public class AccountController {
         System.out.println("Enter your Social Security Number-");
         int ss_No = input.nextInt();
         accountBalance.setSs_No(ss_No);
-        int amount = accountService.deposit(accountBalance);
+        int amount = accountService.withdraw(accountBalance);
         if (amount >= 1) {
             System.out.println("The amount is successfully Withdrawn.");
         } else {
@@ -86,4 +86,17 @@ public class AccountController {
         accountBalance.setBalance(balance);
         return accountBalance;
     }
-}
+
+    public void showAll(Scanner input) {
+        System.out.println("Enter ss_No: ");
+        int ss_No = input.nextInt();
+        AccountBalance accountBalance = accountService.showAll(ss_No);
+        System.out.println("Social Security Number is: "+accountBalance.getSs_No());
+        System.out.println("Latest Deposit Amount is: "+accountBalance.getDepositAmount());
+        System.out.println("Latest Withdraw Amount is: "+accountBalance.getWithdrawAmount());
+        System.out.println("Your new Balance  is: "+accountBalance.getBalance());
+        System.out.println("Id is: "+accountBalance.getId());
+
+        }
+    }
+

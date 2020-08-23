@@ -5,12 +5,14 @@ public class AccountBalance {
     int depositAmount;
     int withdrawAmount;
     int balance;
+    int id;
 
-    public AccountBalance(int ss_No, int depositAmount, int withdrawAmount, int balance) {
+    public AccountBalance(int ss_No, int depositAmount, int withdrawAmount, int balance, int id) {
         this.ss_No = ss_No;
         this.depositAmount = depositAmount;
         this.withdrawAmount = withdrawAmount;
         this.balance = balance;
+        this.id=id;
     }
 
     public AccountBalance() {
@@ -47,5 +49,13 @@ public class AccountBalance {
 
     public void setBalance(int balance) {
         this.balance = balance;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

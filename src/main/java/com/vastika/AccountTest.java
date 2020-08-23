@@ -25,9 +25,11 @@ public class AccountTest {
                 case "withdraw":
                     controller.withdraw(input);
                     break;
+                case  "showAll":
+                    controller.showAll(input);
 
                 default:
-                    System.out.println("wrong choice!!!");
+                   // System.out.println("wrong choice!!!");
             }
 
             System.out.println("do you want to continue?");

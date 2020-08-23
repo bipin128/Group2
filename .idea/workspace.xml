@@ -5,13 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/dao/AccountDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/dao/AccountDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/model/AccountBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/model/AccountBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/model/AccountInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/model/AccountInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vastika/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vastika/service/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/AccountTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/dao/AccountDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/dao/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/dao/AccountDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/model/AccountBalance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/model/AccountBalance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/model/AccountInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/model/AccountInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/service/AccountService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vastika/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vastika/service/AccountServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,10 +99,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598038587257" />
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1598162653588">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1598208162536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598162653588" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598208162536" />
     <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1598194816407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -105,26 +111,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598052518309" />
-    <state width="1493" height="342" key="GridCell.Tab.0.bottom" timestamp="1598166759024">
+    <state width="1493" height="546" key="GridCell.Tab.0.bottom" timestamp="1598209948644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598166759024" />
-    <state width="1493" height="342" key="GridCell.Tab.0.center" timestamp="1598166759023">
+    <state width="1493" height="546" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598209948644" />
+    <state width="1493" height="546" key="GridCell.Tab.0.center" timestamp="1598209948644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598166759023" />
-    <state width="1493" height="342" key="GridCell.Tab.0.left" timestamp="1598166759023">
+    <state width="1493" height="546" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598209948644" />
+    <state width="1493" height="546" key="GridCell.Tab.0.left" timestamp="1598209948644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598166759023" />
-    <state width="1493" height="342" key="GridCell.Tab.0.right" timestamp="1598166759023">
+    <state width="1493" height="546" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598209948644" />
+    <state width="1493" height="546" key="GridCell.Tab.0.right" timestamp="1598209948644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="342" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598166759023" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1598193794713">
+    <state width="1493" height="546" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598209948644" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1598203962780">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598193794713" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598203962780" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598161685782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

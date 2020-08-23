@@ -12,4 +12,6 @@ public interface AccountDao {
 
     int withdraw(AccountBalance accountBalance);
 
+    AccountBalance showAll(int ss_No);
+
 }

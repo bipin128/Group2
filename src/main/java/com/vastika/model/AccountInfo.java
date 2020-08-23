@@ -5,14 +5,14 @@ public class AccountInfo {
     String account_name;
     String address;
     int mobile_no;
-    int socialSecurity_no;
+    int ss_No;
 
     public AccountInfo() {
         this.id = id;
         this.account_name = account_name;
         this.address = address;
         this.mobile_no = mobile_no;
-        this.socialSecurity_no = socialSecurity_no;
+        this.ss_No = ss_No;
     }
 
     public int getId() {
@@ -47,12 +47,12 @@ public class AccountInfo {
         this.mobile_no = mobile_no;
     }
 
-    public int getSocialSecurity_no() {
-        return socialSecurity_no;
+    public int ss_No() {
+        return ss_No;
     }
 
-    public void setSocialSecurity_no(int socialSecurity_no) {
-        this.socialSecurity_no = socialSecurity_no;
+    public void ss_No(int socialSecurity_no) {
+        this.ss_No = ss_No;
     }
 
     @Override
@@ -62,7 +62,15 @@ public class AccountInfo {
                 ", account_name='" + account_name + '\'' +
                 ", address='" + address + '\'' +
                 ", mobile_no=" + mobile_no +
-                ", socialSecurity_no=" + socialSecurity_no +
+                ", socialSecurity_no=" + ss_No +
                 '}';
+    }
+
+    public void setSs_No(int ss_no) {
+        this.ss_No = ss_no;
+    }
+
+    public int getSs_No() {
+        return ss_No;
     }
 }
