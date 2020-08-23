@@ -27,9 +27,9 @@ public class AccountTest {
                     break;
                 case  "showAll":
                     controller.showAll(input);
-
                 default:
-                   // System.out.println("wrong choice!!!");
+                    System.out.println("wrong choice!!!");
+                    break;
             }
 
             System.out.println("do you want to continue?");
