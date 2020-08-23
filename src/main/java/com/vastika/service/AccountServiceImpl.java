@@ -9,7 +9,6 @@ public class AccountServiceImpl  implements AccountService{
     AccountDao accountDao=new AccountDaoImpl();
     @Override
     public int openAccount(AccountInfo accountInfo) {
-
         return accountDao.openAccount(accountInfo);
     }
 

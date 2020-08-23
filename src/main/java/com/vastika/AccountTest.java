@@ -25,7 +25,7 @@ public class AccountTest {
                 case "withdraw":
                     controller.withdraw(input);
                     break;
-                case  "showAll":
+                case "showAll":
                     controller.showAll(input);
                     break;
                 default:

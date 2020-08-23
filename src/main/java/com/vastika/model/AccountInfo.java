@@ -7,7 +7,8 @@ public class AccountInfo {
     int mobile_no;
     int ss_No;
 
-    public AccountInfo() {
+    
+    public AccountInfo(int id, String account_name, String address, int mobile_no, int ss_No) {
         this.id = id;
         this.account_name = account_name;
         this.address = address;
@@ -15,7 +16,10 @@ public class AccountInfo {
         this.ss_No = ss_No;
     }
 
-    public int getId() {
+    public AccountInfo() {
+	}
+
+	public int getId() {
         return id;
     }
 
