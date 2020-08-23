@@ -12,7 +12,7 @@ public class AccountTest {
 
         do {
 
-            System.out.println("which db operation do you want to perform? OpenAccount--Deposit--withdraw");
+            System.out.println("which db operation do you want to perform? OpenAccount--Deposit--withdraw--showAll");
             String choice = input.next();
 
             switch (choice) {
