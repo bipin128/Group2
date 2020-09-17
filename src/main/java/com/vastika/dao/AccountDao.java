@@ -6,6 +6,7 @@ import com.vastika.model.AccountInfo;
 import java.util.List;
 
 public interface AccountDao {
+	
     int openAccount(AccountInfo accountInfo);
 
     int deposit(AccountBalance accountBalance);
